@@ -1,0 +1,133 @@
+/* General page styling */
+body {
+    font-family: 'Georgia', serif;
+    background-image: url('image/back.jpeg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white; /* All text is white by default */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: none; /* Transparent background */
+    border-bottom: 2px solid white;
+}
+
+/* Logo and title styling */
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px; /* Adjust logo size */
+    margin-right: 15px;
+}
+
+.site-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    position: relative;
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    padding: 40px;
+}
+
+.hero h1, .hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* Login button styling */
+.login-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 50px; /* Oval button */
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+}
+
+.login-btn:hover {
+    background-color: lightgray;
+}
+
+/* About us section styling */
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+}
+
+.about-us .column {
+    flex: 1;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-us .main-column {
+    flex: 2; /* Main column is larger */
+}
+
+/* Contact section styling */
+.contact {
+    padding: 40px;
+    background-color: #2e5c1a;
+    color: white;
+    text-align: center;
+}
+
+.contact h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin: 5px 0;
+}

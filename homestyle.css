@@ -1,0 +1,155 @@
+/* General page styling */
+body {
+    font-family: 'Georgia', serif;
+    background-image: url('image/back.jpeg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white; /* All text is white by default */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: none; /* Transparent background */
+}
+
+/* Logo and title styling */
+.logo-title {
+    display: flex;
+    align-items: center; /* Align logo and text side by side */
+}
+
+.logo {
+    height: 40px; /* Adjust logo size */
+    margin-right: 15px; /* Add space between logo and title */
+}
+
+.site-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Georgia', serif;
+    position: relative;
+}
+
+/* Hero section styling */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 60vh; /* Adjusted height to better fit content */
+    padding: 20px;
+    text-align: center; /* Center text horizontally */
+    color: white; /* Text color white */
+}
+
+/* Hero text styling */
+.hero h1, .hero h2 {
+    margin: 0;
+    font-size: 38px; /* Adjust font size */
+}
+
+.hero h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* Login button styling */
+.login-btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 50px; /* Oval button */
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+}
+
+.login-btn:hover {
+    background-color: lightgray;
+}
+/* About us section styling with three columns */
+.about-us {
+    display: flex;
+    justify-content: space-between; /* Align columns horizontally */
+    padding: 40px 20px;
+    background-color: white; /* White background for the introduction */
+    color: black;
+    border-radius: 5px;
+}
+
+.about-us .column {
+    flex: 1;
+    margin: 0 10px; /* Space between columns */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-us .main-column {
+    flex: 2; /* Main column is larger */
+}
+
+.about-us h3 {
+    color: #2e5c1a;
+}
+
+/* Contact section styling */
+.contact {
+    padding: 40px;
+    background-color: #295233; /* Changed background color */
+    color: white;
+    text-align: left; /* Align to the left side */
+    border-radius: 5px;
+    margin: 20px 0; /* Add spacing at the top */
+}
+
+.contact h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Layout adjustment for three sections */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh; /* Make the page take full height */
+}
+
+.section {
+    width: 80%;
+    margin-bottom: 30px;
+}
